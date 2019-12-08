@@ -12,4 +12,4 @@ for x in data2:
 with open('headers.txt', 'w') as hd:
 	hd.write(str(result))
 hd.close()
-os.popen("start headers.txt")
+os.popen("headers.txt")
